@@ -3,7 +3,7 @@
 {{- range $index, $key := .Site.Params.Social -}}
 <a class="soc" href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>|
 {{- end -}} ⚡️
-	Last Update {{ with dateFormat "2000-01-01" .Site.LastChange }} {{ . }} | {{ end }} <a href="https://github.com/athul/archie"> Moded from Archie Theme</a>
+	Last Update {{ with dateFormat "2006-01-01" .Site.LastChange }} {{ . }} | {{ end }} <a href="https://github.com/athul/archie"> Moded from Archie Theme</a>
 </footer>
 {{ if not .Site.IsServer }}
 {{ template "_internal/google_analytics_async.html" . }}
