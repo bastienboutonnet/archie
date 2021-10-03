@@ -1,14 +1,14 @@
 /* Markdown */
 :root {
-  --maincolor: rgb(153, 98, 243);
+  --maincolor: rgb(247, 190, 240);
   /* --maincolor: red; */
   --bordercl: rebeccapurple;
   --callouctcolor: dodgerblue;
-  --hovercolor: navy;
+  --hovercolor: rgb(50, 132, 199);
   --darkMaincolor: #50fa7b;
 }
 html {
-  color: #232333;
+  color: rgb(50, 132, 199);
   font-family: "Roboto Mono", monospace;
   font-size: 15px;
   line-height: 1.6em;
@@ -70,12 +70,12 @@ ul li::before {
 img {
   max-width: 100%;
 }
-  
-img[src$='#center'] {
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 70%;
+
+img[src$="#center"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 
 figure {
@@ -85,7 +85,7 @@ figure {
 
 figcaption {
   font-size: 12px;
-  font-family: 'IBM Plex Mono', 'monospace';
+  font-family: "IBM Plex Mono", "monospace";
 }
 
 figure img {
